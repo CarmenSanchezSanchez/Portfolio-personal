@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;700&family=Roboto&display=swap');
+*{ 
+  margin:0;  
+  padding: 0;
+  box-sizing: 0;
+  
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 12.5% 25% 37.5% 25% ;
+    row-gap: 0.3em;
+    column-gap: 0.3em;
+    background-color: #000000;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display';
+}
+/*nav*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    }
+
+header{
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    background-color: #000000; 
+}   
+footer{
+background-color: #000000; 
+color: white;
+}   
+nav h1, nav h2, ul li{
+    font-size: 1em;
+}
+nav a{
+color: white;
+}
+
+    
+/*header*/
+.amapola2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 398px;
+    height: 512px;
+    left: 616px;
+    top: 439px;
+
+}
+.diseño{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 300px;
+    margin-left: 1%;
+    font-family: 'Playfair Display';
+    font-size: 110px;
+    background-color: #000000;
+    margin: auto;
+    block-size: 45%;
+}
+    
+.grafico{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 5px;
+    margin-left: 1%;
+    font-family: 'Playfair Display';
+    font-size: 110px;
+    background-color: #000000;
+    margin: auto;  
+    block-size: 45%;
+}
+.soycarmen{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 13px;
+    background-color: #000000;
+    block-size: 45%;
+    top: 96%;
+}
+
+
+/*main*/
+
+.titulo{ 
+position: absolute;
+width: 605px;
+height: 85px;
+left: 0px;
+top: 0px;
+font-family: 'Poppins';
+font-style: normal;
+color: aliceblue;
+font-weight: 700;
+font-size: 60px;
+line-height: 1900px;
+background-color: #000000;
+}
+
+.texto1{
+font-family: 'Poppins';
+font-style: normal;
+line-height: 15px;
+margin-left: 0%;
+margin-top: 0%;
+font-weight: 600;
+font-size: 13px;
+line-height: 90px;
+color: white;
+position: absolute;
+background-color: #000000;
+}
+
+.texto2{
+font-family: 'Poppins';
+font-style: normal;
+line-height: 15px;
+margin-left: 0%;
+margin-top: 0%;
+align-items: first baseline;
+font-weight: 400;
+font-size: 13px;
+line-height: 90px;
+color: white;
+position: absolute;
+background-color: #000000;
+}
+
+/*projectes*/
+
+.revistafotografica1{
+margin-top: 10%;
+grid-column-start: 1;
+grid-column-end: 1;
+width: 397px;
+height: 331px;
+left: 858px;
+top: 376px;
+justify-content: left;
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+margin: 20px;
+}
+.revistatipo{
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    gap: 10px;
+    width: 500px;
+    height: 400px;
+    left: 750px;
+    top: 376px;
+    background-color: #000000;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px
+    
+}
+.cartelcine{
+display: flex;
+flex-direction: row;
+width: 397px;
+height: 331px;
+left: 858px;
+top: 376px;
+grid-column-start: 4;
+grid-column-end: 5;
+background-color: #000000;
+justify-content: right;
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin: 20px
+
+}
+.packaging{
+    display: flex;
+    flex-direction: row;
+    width: 397px;
+    height: 331px;
+    left: 858px;
+    top: 376px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #000000;
+    top: 500px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 20px
+    }
+    .revistagraffica{
+        display: flex;
+        flex-direction: row;
+        width: 397px;
+        height: 331px;
+        left: 858px;
+        top: 376px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: #000000;
+        justify-content: right;
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin: 20px
+        }
+
+
+/*footer*/
+.about{
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 90px;
+    color: white;
+    position: absolute;
+    background-color: #000000;  
+}
+.imgabout{
+position: absolute;
+width: 395px;
+height: 424px;
+left: 858px;
+top: 138px;
+margin: 20px;
+}
+
+.about{
+    position: absolute;
+    width: 395px;
+    height: 424px;
+    left: 858px;
+    top: 138px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.contacte{
+    position: absolute;
+    width: 395px;
+    height: 424px;
+    left: 858px;
+    top: 138px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
